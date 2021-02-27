@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+}
+
+header {
+  height: 60px;
+  background-color: cornflowerblue;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-bar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-bar-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+.nav-bar-list ul a:hover {
+  background-color: crimson;
+  padding: 25px;
+  /* margin: auto; */
+}
+.fa-opencart:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
+.nav-bar-list ul a {
+  text-decoration: none;
+  color: black;
+}
